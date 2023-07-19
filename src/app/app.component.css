@@ -3,15 +3,21 @@ ul {
     margin: 0;
     padding: 0;
 
-    -webkit-column-count: 3;
-    -moz-coloumn-count: 3;
-    column-count: 3;
+    -webkit-column-count: 6;
+    -moz-coloumn-count: 6;
+    column-count: 6;
 
-    -webkit-column-gap: 1px;
-    -moz-column-gap: 1px;
-    column-gap: 1px;
+    -webkit-column-gap: 5px;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
 
     -webkit-column-rule: 1px single grey;
     -moz-column-rule: 1px single grey;
     column-rule: 1px single grey;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
