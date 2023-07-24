@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class GalleryComponent {
 
-  file = [
+  files = [
     
     "/assets/21.JPG",
     "/assets/1.JPG",
