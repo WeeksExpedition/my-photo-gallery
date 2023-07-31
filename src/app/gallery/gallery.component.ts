@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import * as galleryData from '../assets/data.json';
 
 @Component({
   selector: 'app-gallery',
@@ -6,7 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./gallery.component.css']
 })
 
-export class GalleryComponent {
+export class GalleryComponent implements OnInit {
+
+  title = 'gallery-read';
+  data: any = galleryData;
+
+  ngOnInit() {
+    console.log('Data', this.data);
+  }
+
 
   files = [
     "/assets/21.JPG",
