@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-//import * as galleryData from '../assets/data.json';
 
 @Component({
   selector: 'app-gallery',
@@ -8,12 +7,6 @@ import { Component } from '@angular/core';
 })
 
 export class GalleryComponent {
-  //title = 'gallery-read';
-  //data: any = galleryData;
-
- // ngOnInit() {
- //   console.log('Data', this.data);
- // }
 
   files = [
     "/assets/21.JPG",
