@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 import { GalleryDto } from './gallery.interface';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,7 @@ export class GalleryService {
 
   constructor(private http:HttpClient) {}
 
-  getPhoto() {
+  getAllPhotos() {
     return this.http.get<GalleryDto[]>(this.url);
   }
 }
