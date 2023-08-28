@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { GalleryService } from '../gallery.service';
 
 @Component({
@@ -12,7 +11,6 @@ export class GalleryComponent implements OnInit {
 
   title = 'my-photo-gallery';
   galleryData:any;
-  url: string = 'http://localhost:3000/images';
 
   constructor(private GalleryService: GalleryService) {}
 
