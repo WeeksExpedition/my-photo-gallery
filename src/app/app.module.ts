@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryService } from './gallery.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [GalleryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -11,7 +11,7 @@ export class GalleryComponent implements OnInit {
 
   title = 'my-photo-gallery';
   galleryData:any;
-  url: string = '/assets/data.json';
+  url: string = 'http://localhost:3000/images';
 
   constructor(private http: HttpClient) {}
 

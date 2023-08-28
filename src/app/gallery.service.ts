@@ -1,14 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 import { GalleryDto } from './gallery.interface';
-import { GalleryComponent } from './gallery/gallery.component';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GalleryService {
 
-  url: string = 'assets/data.json';
+  url: string = 'http://localhost:3000/images';
 
   constructor(private http:HttpClient) {}
 
