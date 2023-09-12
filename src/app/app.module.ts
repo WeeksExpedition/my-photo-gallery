@@ -9,7 +9,7 @@ import { GalleryService } from './gallery.service';
 @NgModule({
   declarations: [
     AppComponent,
-    GalleryComponent
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
