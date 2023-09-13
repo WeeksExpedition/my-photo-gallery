@@ -26,9 +26,10 @@ p {
 .topnav a:hover {
     background-color: #aaaaaa;
     color: black;
+    box-shadow: 2px 2px 4px #000000;
 }
 
-.topnav a.active {
+.topnav a:active {
     background-color: #aaaaaa;
     color: black;
 }
